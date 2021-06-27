@@ -29,7 +29,9 @@
     "eslint-config-sanity": "5.1.0",
     "eslint-plugin-react": "7.24.0"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
   "bugs": {
     "url": "https://github.com/rexxars/sanity-session-checker/issues"
   },
