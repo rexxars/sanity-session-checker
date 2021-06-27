@@ -1,8 +1,12 @@
 {
+  "paths": {
+    "source": "src",
+    "compiled": "lib"
+  },
   "parts": [
     {
       "implements": "part:@sanity/base/absolutes",
-      "path": "./sessionCheck.js"
+      "path": "sessionCheck.js"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "name": "@rexxars/session-checker",
   "version": "1.0.0",
   "description": "Refreshes the current user session in Sanity studios on an interval",
-  "main": "sessionCheck.js",
+  "main": "lib/sessionCheck.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sanipack build",
