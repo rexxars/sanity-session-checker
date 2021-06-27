@@ -1,6 +1,6 @@
 {
   "name": "@rexxars/session-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Refreshes the current user session in Sanity studios on an interval",
   "main": "lib/sessionCheck.js",
   "scripts": {
