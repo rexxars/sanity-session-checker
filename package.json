@@ -1,0 +1,52 @@
+{
+  "name": "@rexxars/session-checker",
+  "version": "1.0.0",
+  "description": "Refreshes the current user session in Sanity studios on an interval",
+  "main": "sessionCheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sanipack build",
+    "watch": "sanipack build --watch",
+    "prepublishOnly": "sanipack build && sanipack verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/sanity-session-checker.git"
+  },
+  "keywords": [
+    "sanity",
+    "sanity-plugin",
+    "session"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "sanipack": "2.0.1",
+    "prettier": "2.3.2",
+    "eslint": "7.29.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-sanity": "5.1.0",
+    "eslint-plugin-react": "7.24.0"
+  },
+  "peerDependencies": {},
+  "bugs": {
+    "url": "https://github.com/rexxars/sanity-session-checker/issues"
+  },
+  "homepage": "https://github.com/rexxars/sanity-session-checker#readme",
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parser": "sanipack/babel/eslint-parser",
+    "extends": [
+      "sanity",
+      "sanity/react",
+      "prettier",
+      "prettier/react"
+    ]
+  }
+}
